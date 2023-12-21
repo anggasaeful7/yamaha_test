@@ -1,0 +1,234 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.nav {
+  background-color: #FFFFFF !important;
+}
+
+.navbar {
+  background-color: #FFFFFF !important;
+}
+
+.nav-item {
+  font-weight: 500;
+  color: black;
+}
+
+#nav-active {
+  color: #E74843;
+}
+
+.nav-item:hover {
+  background-color: #E74843;
+  color: white !important;
+  border-radius: 5px;
+  transition: all 0.8s ease;
+}
+
+.nav-scroll {
+  background-color: #777;
+  color: white;
+  transition: all 1s ease-in-out;
+}
+
+.main-content {
+  background-image: url("/assets/img/ornamen.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+
+}
+
+.reveal {
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 0.7s all ease;
+}
+
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.main-content .syarat {
+  font-weight: 400;
+  color: black;
+  font-size: 18px;
+}
+
+.main-content .sales {
+  height: 35px;
+  width: 150px;
+  font-size: 12px;
+}
+
+#footer {
+  background-position: center;
+  background-size: cover;
+  filter: brightness(70%);
+}
+
+.footer-row {
+  padding: 5%;
+}
+
+.footer-text {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer-subtext {
+  font-size: 16px;
+  color: white;
+}
+
+.footer-icon {
+  margin-right: 20px;
+}
+
+.float {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #44dd55;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-float {
+  margin-top: 25px;
+}
+
+.img-float {
+  width: 60%;
+  height: 60%;
+}
+
+.text-float {
+  font-size: 14px;
+  position: fixed;
+  width: 170px;
+  height: 70px;
+  bottom: 40px;
+  right: 130px;
+  background-color: #16a085;
+  color: #FFF;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+@media (max-width: 576px) {
+  /* Styles for smartphones */
+
+  * {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  ol li {
+    margin-bottom: 10px;
+  }
+
+  .main-content.ms-5 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .syarat {
+    overflow: hidden;
+  }
+
+  .main-content .syarat {
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+  }
+
+  .main-content .awal {
+    margin-top: 20px;
+  }
+
+  .main-content .sales {
+    height: 35x;
+    width: 100px;
+    font-size: 10px;
+  }
+
+  .footer-text {
+    font-size: 12px !important;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .footer-subtext {
+    font-size: 6px !important;
+    color: white;
+  }
+
+  .footer-icon {
+    margin-right: 10px !important;
+    width: 10%;
+    height: 10%;
+  }
+
+  .float {
+    position: fixed;
+    width: 50px !important;
+    height: 50px !important;
+    bottom: 40px;
+    right: 40px;
+    background-color: #2ecc71;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-float {
+    font-size: 8px !important;
+    position: fixed;
+    width: 100px !important;
+    height: 30px !important;
+    bottom: 40px;
+    right: 100px !important;
+    background-color: #16a085;
+    color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+}

@@ -1,0 +1,225 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.nav {
+  background-color: #FFFFFF !important;
+}
+
+.navbar {
+  background-color: #FFFFFF !important;
+}
+
+.nav-item {
+  font-weight: 500;
+  color: black;
+}
+
+#nav-active {
+  color: #E74843;
+}
+
+.nav-item:hover {
+  background-color: #E74843;
+  color: white !important;
+  border-radius: 5px;
+  transition: all 0.8s ease;
+}
+
+.nav-scroll {
+  background-color: #777;
+  color: white;
+  transition: all 1s ease-in-out;
+}
+
+.banner .main-image {
+  width: 320px;
+}
+
+.banner .detail-foto .image-lite .img-lite {
+  height: 80px;
+  width: 80px;
+}
+
+#footer {
+  background-position: center;
+  background-size: cover;
+  filter: brightness(70%);
+}
+
+.footer-row {
+  padding: 5%;
+}
+
+.footer-text {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer-subtext {
+  font-size: 16px;
+  color: white;
+}
+
+.footer-icon {
+  margin-right: 20px;
+}
+
+.float {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #44dd55;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-float {
+  margin-top: 25px;
+}
+
+.img-float {
+  width: 60%;
+  height: 60%;
+}
+
+.text-float {
+  font-size: 14px;
+  position: fixed;
+  width: 170px;
+  height: 70px;
+  bottom: 40px;
+  right: 130px;
+  background-color: #16a085;
+  color: #FFF;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 576px) {
+
+  /* Stil tambahan untuk layar dengan lebar maksimum 600px */
+  * {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .banner .mobile {
+    flex-direction: column;
+  }
+
+
+  .banner .mobile .detail-foto .main-image {
+    margin-left: 110px;
+    margin-bottom: 20px;
+  }
+
+  .banner .mobile .detail-foto .image-lite {
+    justify-content: center !important;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .banner .mobile .detail-foto .image-lite.gap-2 {
+    gap: 30px !important;
+    justify-content: none !important;
+    align-content: center;
+  }
+
+  .banner .mobile .detail-produk {
+    text-align: center;
+  }
+
+  .banner .main-image {
+    width: 220px;
+  }
+
+  .banner .detail-foto .image-lite .img-lite.gap-5 {
+    height: 40px;
+    width: 40px;
+    gap: 2 !important;
+  }
+
+  .banner .detail-produk p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .banner .detail-produk .mbl {
+    width: 300px;
+  }
+
+
+  .footer-text {
+    font-size: 12px !important;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .footer-subtext {
+    font-size: 6px !important;
+    color: white;
+  }
+
+  .footer-icon {
+    margin-right: 10px !important;
+    width: 10%;
+    height: 10%;
+  }
+
+  .float {
+    position: fixed;
+    width: 50px !important;
+    height: 50px !important;
+    bottom: 40px;
+    right: 40px;
+    background-color: #2ecc71;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-float {
+    font-size: 8px !important;
+    position: fixed;
+    width: 100px !important;
+    height: 30px !important;
+    bottom: 40px;
+    right: 100px !important;
+    background-color: #16a085;
+    color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}

@@ -1,0 +1,411 @@
+@media (max-width: 576px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .text-hero {
+        font-size: 8px !important;
+        font-weight: bold;
+        margin-top: 0 !important;
+    }
+
+    .subtext-hero {
+        font-size: 7px !important;
+    }
+
+    .hero-card-1 {
+        overflow: hidden;
+    }
+
+    .hero-card-2 {
+        overflow: hidden;
+    }
+
+    .promo-text {
+        font-size: 9px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .promo-subtext {
+        font-size: 8px;
+    }
+
+    .produk-head-text {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .produk-text {
+        font-size: 12px !important;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .produk-subtext {
+        font-size: 12px !important;
+        color: #3498db;
+        overflow: hidden;
+    }
+
+    .promo-body {
+        overflow: hidden;
+    }
+
+    .produk-harga {
+        font-size: 10px !important;
+        margin-top: -10px !important;
+    }
+
+    .text-layanan {
+        font-size: 0.5rem !important;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .subtext-layanan {
+        visibility: hidden;
+    }
+
+    .img-rating {
+        width: 50%;
+    }
+
+    .footer-text {
+        font-size: 12px !important;
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .footer-subtext {
+        font-size: 6px !important;
+        color: white;
+    }
+
+    .footer-icon {
+        margin-right: 10px !important;
+        width: 10%;
+        height: 10%;
+    }
+
+    .float {
+        position: fixed;
+        width: 50px !important;
+        height: 50px !important;
+        bottom: 40px;
+        right: 40px;
+        background-color: #2ecc71;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-promo {
+        height: 500px !important;
+    }
+
+    .card-img-top {
+        height: 300px !important;
+    }
+
+    .card-img-top-produk {
+        height: 50% !important;
+    }
+
+    .text-float {
+        font-size: 8px !important;
+        position: fixed;
+        width: 100px !important;
+        height: 30px !important;
+        bottom: 40px;
+        right: 100px !important;
+        background-color: #16a085;
+        color: #FFF;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav {
+    background-color: #FFFFFF !important;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+}
+
+.nav-item {
+    font-weight: 500;
+    color: black;
+}
+
+#nav-active {
+    color: #3498db;
+}
+
+.nav-item:hover {
+    background-color: #3498db;
+    color: white !important;
+    border-radius: 5px;
+    transition: all 0.8s ease;
+}
+
+.nav-scroll {
+    background-color: #777;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.row-hero {
+    padding: 3%;
+    background-color: #F5F6FA;
+}
+
+.hero-card-1 {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.hero-card-2 {
+    background-color: #e9e9f6;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.img-hero {
+    width: 30%;
+    height: 30%;
+}
+
+.text-hero {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.subtext-hero {
+    font-size: 14px;
+}
+
+.row-promo {
+    padding: 5%;
+}
+
+.promo-head-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.promo-body {
+    text-align: center;
+    text-decoration: none;
+}
+
+.produk-body {
+    text-align: center;
+}
+
+
+.promo-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.promo-subtext {
+    font-size: 14px;
+}
+
+#section-produk {
+    background-color: #F5F6FA;
+}
+
+.row-produk {
+    padding: 5%;
+}
+
+.produk-head-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.produk-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.produk-subtext {
+    font-size: 16px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.produk-harga {
+    font-size: 14px;
+    margin-top: -10px;
+    color: black;
+}
+
+.card-footer {
+    text-align: center;
+    border: 0;
+    background-color: #FFFFFF;
+}
+
+.tutorial-card-2 {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.row-layanan {
+    padding: 5%;
+}
+
+.text-layanan {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.subtext-layanan {
+    font-size: 0.9rem;
+}
+
+#footer {
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.footer-row {
+    padding: 5%;
+}
+
+.footer-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-subtext {
+    font-size: 16px;
+    color: white;
+}
+
+.footer-icon {
+    margin-right: 20px;
+}
+
+.float {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #44dd55;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-float {
+    margin-top: 25px;
+}
+
+.img-float {
+    width: 60%;
+    height: 60%;
+}
+
+.reveal {
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 0.7s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card-promo {
+    height: 600px;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.card-img-top-produk {
+    height: 200px;
+}
+
+.anchor-produk {
+    text-decoration: none;
+}
+
+.text-float {
+    font-size: 14px;
+    position: fixed;
+    width: 170px;
+    height: 70px;
+    bottom: 40px;
+    right: 130px;
+    background-color: #16a085;
+    color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

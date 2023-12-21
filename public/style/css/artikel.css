@@ -1,0 +1,256 @@
+@media (max-width: 576px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .slider-text {
+        overflow: hidden;
+    }
+
+    .slider-subtext {
+        overflow: hidden;
+    }
+
+    .about-text {
+        overflow: hidden;
+    }
+
+    .service-text {
+        overflow: hidden;
+    }
+
+    .visi-text {
+        overflow: hidden;
+    }
+
+    .misi-text {
+        overflow: hidden;
+    }
+
+    .about-subtext {
+        font-size: 9px !important;
+        overflow: hidden;
+    }
+
+    .service-card-text {
+        font-weight: normal !important;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 0;
+        font-size: 6px !important;
+    }
+
+    .cabang-text-header {
+        font-size: 11px !important;
+    }
+
+    #cabang-subtext-header {
+        font-size: 11px !important;
+    }
+
+    .cabang-text {
+        font-size: 9px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .cabang-subtext {
+        font-size: 9px !important;
+    }
+
+    .footer-text {
+        font-size: 12px !important;
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .footer-subtext {
+        font-size: 6px !important;
+        color: white;
+    }
+
+    .footer-icon {
+        margin-right: 10px !important;
+        width: 10%;
+        height: 10%;
+    }
+
+    .float {
+        position: fixed;
+        width: 50px !important;
+        height: 50px !important;
+        bottom: 40px;
+        right: 40px;
+        background-color: #2ecc71;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .artikel-title {
+        overflow: hidden;
+    }
+
+    .artikel-subtitle {
+        overflow: hidden;
+    }
+
+    .text-float {
+        font-size: 8px !important;
+        position: fixed;
+        width: 100px !important;
+        height: 30px !important;
+        bottom: 40px;
+        right: 100px !important;
+        background-color: #16a085;
+        color: #FFF;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav {
+    background-color: #ffffff !important;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+}
+
+.nav-item {
+    font-weight: 500;
+    color: black;
+}
+
+#nav-active {
+    color: #E74843;
+}
+
+.nav-item:hover {
+    background-color: #E74843;
+    color: white !important;
+    border-radius: 5px;
+    transition: all 0.8s ease;
+}
+
+.nav-scroll {
+    background-color: #777;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.row-artikel {
+    padding: 5%;
+}
+
+.artikel-head {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-artikel {
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 10px 0px;
+}
+
+.card-img-top-artikel {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.artikel-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.artikel-subtitle {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 50%;
+    min-height: 150px;
+}
+
+.float {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #44dd55;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-float {
+    margin-top: 25px;
+}
+
+.img-float {
+    width: 60%;
+    height: 60%;
+}
+
+.reveal {
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 0.7s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.text-float {
+    font-size: 14px;
+    position: fixed;
+    width: 170px;
+    height: 70px;
+    bottom: 40px;
+    right: 130px;
+    background-color: #16a085;
+    color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

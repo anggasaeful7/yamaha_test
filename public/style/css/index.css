@@ -1,0 +1,500 @@
+@media (max-width: 576px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .slider-text {
+        overflow: hidden;
+    }
+
+    .slider-subtext {
+        overflow: hidden;
+    }
+
+    .about-text {
+        overflow: hidden;
+    }
+
+    .service-text {
+        overflow: hidden;
+    }
+
+    .visi-text {
+        overflow: hidden;
+    }
+
+    .misi-text {
+        overflow: hidden;
+    }
+
+    .about-subtext {
+        font-size: 9px !important;
+        overflow: hidden;
+    }
+
+    .service-card-text {
+        font-weight: normal !important;
+        text-decoration: underline;
+        bottom: 0;
+        font-size: 6px !important;
+    }
+
+    .cabang-text-header {
+        font-size: 11px !important;
+    }
+
+    #cabang-subtext-header {
+        font-size: 11px !important;
+    }
+
+    .cabang-text {
+        font-size: 9px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .cabang-subtext {
+        font-size: 9px !important;
+    }
+
+    .footer-text {
+        font-size: 12px !important;
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .footer-subtext {
+        font-size: 6px !important;
+        color: white;
+    }
+
+    .footer-icon {
+        margin-right: 10px !important;
+        width: 10%;
+        height: 10%;
+    }
+
+    .float {
+        position: fixed;
+        width: 50px !important;
+        height: 50px !important;
+        bottom: 40px;
+        right: 40px;
+        background-color: #2ecc71;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-float {
+        font-size: 8px !important;
+        position: fixed;
+        width: 100px !important;
+        height: 30px !important;
+        bottom: 40px;
+        right: 100px !important;
+        background-color: #16a085;
+        color: #FFF;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .produk-text {
+        font-size: 10px !important;
+        font-weight: bold;
+    }
+    
+    .produk-harga {
+        font-size: 8px !important;
+        margin-top: -10px;
+        padding-bottom: 25%;
+    }
+
+    .service-card-img {
+        height: 55px !important;
+    }
+
+    .card-partner {
+        margin: 10px;
+        padding: 5%;
+        border: none;
+    }
+    
+    .partner-card-img {
+        filter: brightness(80%);
+        height: 50px;
+    }
+    
+    .partner-section {
+        display: flex;
+        text-align: center;
+        padding: 5%;
+        background-color: white;
+        justify-content: center;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav{
+    background-color: #ffffff !important;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+}
+
+.nav-item {
+    font-weight: 500;
+    color: black;
+}
+
+#nav-active {
+    color: #E74843;
+}
+
+.nav-item:hover {
+    background-color: #E74843;
+    color: white !important;
+    border-radius: 5px;
+    transition: all 0.8s ease;
+}
+
+.nav-scroll {
+    background-color: #777;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.slider-text {
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.slider-subtext {
+    font-weight: 800;
+}
+
+.about-section {
+    padding: 5%;
+}
+
+.img-about {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-weight: bold;
+}
+
+.about-subtext {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.service-section {
+    display: flex;
+    text-align: center;
+    padding: 5%;
+    background-color: #F5F6FA;
+}
+
+.service-text {
+    font-weight: bold;
+    text-align: center;
+}
+
+.service-card-text {
+    font-weight: bold;
+    text-decoration: underline;
+    bottom: 0;
+    left: 35%;
+}
+
+.service-card-img {
+    filter: brightness(80%);
+    height: 200px;
+}
+
+#visi {
+    display: flex;
+    background-color: #F5F6FA;
+    justify-content: center;
+}
+
+#misi {
+    display: flex;
+    background-color: #F5F6FA;
+    justify-content: center;
+}
+
+.visi-text {
+    color: #E74843;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.visi-subtext {
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.misi-text {
+    color: #E74843;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#misi-data {
+    font-size: 10px;
+    text-align: justify;
+}
+
+#cabang {
+    background-color: white;
+}
+
+#cabang-head {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#cabang-head-text {
+    font-weight: bold;
+}
+
+.img-cabang {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.cabang-row {
+    padding: 5%;
+}
+
+#cabang-line {
+    width: 70%;
+    height: 2px;
+    background-color: black;
+}
+
+.cabang-text-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cabang-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cabang-subtext {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.cabang-alamat:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#footer {
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.footer-row {
+    padding: 5%;
+}
+
+.footer-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-subtext {
+    font-size: 16px;
+    color: white;
+}
+
+.footer-icon {
+    margin-right: 20px;
+}
+
+.text-float {
+    font-size: 14px;
+    position: fixed;
+    width: 170px;
+    height: 70px;
+    bottom: 40px;
+    right: 130px;
+    background-color: #16a085;
+    color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.float {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #44dd55;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-float {
+    width: 60%;
+    height: 60%;
+}
+
+.reveal {
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 0.7s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+#section-produk {
+    background-color: #F5F6FA;
+}
+
+.row-produk {
+    padding: 5%;
+}
+
+.produk-head-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.produk-text {
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.produk-subtext {
+    font-size: 16px;
+    color: #E74843;
+}
+
+.produk-harga {
+    font-size: 14px;
+    margin-top: -10px;
+    padding-bottom: 25%;
+}
+
+.card-img-top {
+    width: 30%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.testimoni-rating {
+    width: 50%;
+    height: 50%;
+}
+
+.col-testimoni {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+
+.card-partner {
+    margin: 10px;
+    padding: 5%;
+}
+
+.partner-card-img {
+    filter: brightness(80%);
+    height: 50px;
+}
+
+.partner-section {
+    display: flex;
+    text-align: center;
+    padding: 5%;
+    background-color: white;
+    justify-content: center;
+}
